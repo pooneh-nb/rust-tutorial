@@ -35,4 +35,15 @@ pub fn run(){
         println!("{}", word);
     }
 
+    // Create string with capacity 
+    let mut s = String::with_capacity(10);
+    s.push('a');
+    s.push('b');
+
+    // assertion testing
+    assert_eq!(10, s.capacity());
+    // println!("{}", s);
+
+    
+
 }
