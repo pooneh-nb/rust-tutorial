@@ -10,8 +10,16 @@ pub fn run() {
 
 // vector
     let vec1 = vec![1,2,3];
+    // if we say : let vec2 = vec1; hen the owner goes out of scope, the value will be dropped. it means that the vec1 is not the owner anymore
     let vec2 = &vec1;
+    let vec3 = vec1.clone();
 
 
-    println!("values: {:?}", (&vec1, vec2));
+    println!("values: {:?}", (&vec1, vec2, vec3));
+
+}
+
+pub fn function_ownership(name:String){
+    let str = name;
+    println!("{}", str);
 }
