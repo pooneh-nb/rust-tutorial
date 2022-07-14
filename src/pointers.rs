@@ -23,3 +23,12 @@ pub fn function_ownership(name:String){
     let str = name;
     println!("{}", str);
 }
+
+pub fn gives_ownership() -> String{
+    let some_string = String::from("yours");
+    some_string
+}
+
+pub fn takes_and_gives_ownership(a_string: String) -> String{
+    a_string
+}
