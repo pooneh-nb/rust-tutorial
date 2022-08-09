@@ -16,8 +16,11 @@ mod closure;
 mod iteration;
 mod matches;
 mod generics;
+mod lifetimes;
+mod stds;
 
-use generics::Point;
+
+
 
 
 fn main(){
@@ -42,7 +45,7 @@ fn main(){
     // println!("{}", s2);
 
     // structs::run();
-    // enums::run();
+    enums::run();
     // cli::run();
     // closure::run();
     // iteration::run();
@@ -66,5 +69,10 @@ fn main(){
     // let mix = generics::generic_filed_in_struct(5, "Pouneh");
     // println!("{:?}", mix);
 
-    generics::run();
+    //generics::run();.
+
+    // lifetimes::run();
+    // stds::run();
+
+    
 }
