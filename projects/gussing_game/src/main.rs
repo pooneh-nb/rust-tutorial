@@ -14,6 +14,7 @@ fn main() {
 
         io::stdin().read_line(&mut guess).expect("Failed to read line");
 
+        // parse returns a Result type and Result is an enum that has the variants Ok and Err
         let guess:i32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => continue,
