@@ -1,1 +1,1 @@
-/home/c6/Documents/Brave/rust-lib/tutorial_rust/projects/variables/target/debug/variables: /home/c6/Documents/Brave/rust-lib/tutorial_rust/projects/variables/src/main.rs
+/home/pooneh/Documents/Brave/rust-tutorial/projects/variables/target/debug/variables: /home/pooneh/Documents/Brave/rust-tutorial/projects/variables/src/main.rs
